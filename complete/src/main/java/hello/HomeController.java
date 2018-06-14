@@ -9,7 +9,8 @@ public class HomeController {
 
     @RequestMapping("/")
     public @ResponseBody String greeting() {
-        return "Hello World";
+        return "Hello default World <br>" +
+                "- with the jar config commented out";
     }
 
 }
